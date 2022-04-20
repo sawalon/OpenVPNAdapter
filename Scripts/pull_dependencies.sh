@@ -2,9 +2,9 @@
 
 set -e
 
-OPENVPN3_VERSION="release/3.6.1"
+OPENVPN3_VERSION="release/3.6.1a"
 
-git subtree pull --prefix Sources/OpenVPN3 git@github.com:OpenVPN/openvpn3.git ${OPENVPN3_VERSION} --squash
+git subtree pull --prefix Sources/OpenVPN3 git@github.com:sawalon/openvpn3.git ${OPENVPN3_VERSION} --squash
 
 source Sources/OpenVPN3/deps/lib-versions
 
